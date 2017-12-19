@@ -1,0 +1,28 @@
+{
+  "name": "eskirex/cache",
+  "type": "library",
+  "description": "Eskirex Cache Component",
+  "keywords": [],
+  "homepage": "http://www.eskirex.com",
+  "license": "MIT",
+  "version" : "1.0.0",
+  "authors": [
+    {
+      "name": "Eskirex",
+      "email": "eskirex@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1.3",
+    "eskirex/dotify": "^1.0"
+  },
+  "config": {
+    "minimum-stability": "dev"
+  },
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "Eskirex\\Component\\Cache\\": "src"
+    }
+  }
+}
